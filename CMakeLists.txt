@@ -24,6 +24,7 @@ add_executable(
     alert_to_controller.cpp
     email_alert.cpp
 )
+
 target_link_libraries(
   cleancode
   GTest::gmock_main
