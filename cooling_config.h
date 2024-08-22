@@ -13,3 +13,4 @@ typedef struct {
 } cooling_config;
 
 cooling_config get_cooling_config(cooling_type type);
+
