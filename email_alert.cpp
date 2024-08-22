@@ -14,3 +14,4 @@ void send_to_email(breach_type breach) {
         printf("%s", messages[breach - 1]);
     }
 }
+
