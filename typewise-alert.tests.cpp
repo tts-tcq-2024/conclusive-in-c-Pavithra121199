@@ -49,4 +49,3 @@ TEST(TypeWiseAlertTestSuite, CheckAndAlertToEmail) {
     std::string output = testing::internal::GetCapturedStdout();
     EXPECT_EQ(output, "To: a.b@c.com\nHi, the temperature is too high\n");
 }
-
