@@ -13,4 +13,5 @@ cooling_config get_cooling_config(cooling_type type) {
             return cooling_configs[i];
         }
     }
+      return cooling_configs[0];  // Default to PASSIVE_COOLING
 }
